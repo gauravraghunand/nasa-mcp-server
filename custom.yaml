@@ -2,37 +2,6 @@ version: 2
 name: custom
 displayName: Custom MCP Servers
 registry:
-  dice:
-    description: "Comprehensive dice rolling for gaming and decision making"
-    title: "Dice Roller"
-    type: server
-    dateAdded: "2025-09-19T12:00:00Z"
-    image: dice-mcp-server:latest
-    ref: ""
-    readme: ""
-    toolsUrl: ""
-    source: ""
-    upstream: ""
-    icon: ""
-    tools:
-      - name: roll
-      - name: coin_flip
-      - name: dnd_stats
-      - name: percentile
-      - name: advantage
-      - name: disadvantage
-      - name: custom_range
-      - name: multiple_rolls
-    metadata:
-      category: productivity
-      tags:
-        - gaming
-        - dice
-        - random
-        - dnd
-      license: MIT
-      owner: local
-
   nasa:
     description: "Access NASA's vast collection of images, videos, and audio files through their public Image and Video Library API"
     title: "NASA Image and Video Library"
@@ -61,4 +30,5 @@ registry:
         - media
         - science
       license: MIT
+
       owner: local
