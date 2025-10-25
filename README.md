@@ -37,7 +37,7 @@ The `Dockerfile` creates a secure container running as a non-root user (`mcpuser
 
 1.  Build the Docker image with the tag `nasa-mcp-server`:
     ```bash
-    docker build -t nasa-mcp-server:latest .
+    docker build -t nasa-mcp-server .
     ```
 
 ### Step 3: Create the Custom Catalog
