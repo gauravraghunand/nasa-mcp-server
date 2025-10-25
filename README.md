@@ -35,7 +35,7 @@ Follow these steps to build the Docker image, configure the MCP Gateway, and con
 
 The `Dockerfile` creates a secure container running as a non-root user (`mcpuser`) with the necessary Python dependencies (`mcp[cli]` and `httpx`).
 
-1.  Build the Docker image with the tag `nasa-mcp-server:latest`:
+1.  Build the Docker image with the tag `nasa-mcp-server`:
     ```bash
     docker build -t nasa-mcp-server:latest .
     ```
